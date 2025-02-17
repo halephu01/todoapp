@@ -1,22 +1,34 @@
 # To-Do App
 
-Welcome to the To-Do App! This application is designed to help you manage your tasks efficiently. Built with React, Vite, Tailwind CSS, and Python (Flask), the app offers a seamless user experience and powerful backend functionality. The app is deployed using Render and Netlify for a reliable and scalable deployment.
+Welcome to the To-Do App! This application helps you manage tasks efficiently with a seamless user experience. Built with **React, Vite, Tailwind CSS, and Python (Flask)**, the app provides powerful functionality and scalable deployment using **Render and Netlify**.
+
+## Overview
+
+This project is structured into different components, each documented separately. Click on the links below to access more details:
+
+- [Docker Setup Documentation](README-frontend.md)
+- [Backend Documentation](README-backend.md)
+- [Deployment Guide](README-devops.md)
 
 ## Features
 
-- **Task Management**: Create, update, and delete tasks easily.
+- **Task Management**: Create, update, and delete tasks effortlessly.
 - **User Authentication**: Secure user registration and login.
-- **Responsive Design**: A mobile-friendly interface built with Tailwind CSS.
-- **Real-time Updates**: Tasks update in real-time without needing a page refresh.
-- **Deployed on Render and Netlify**: Reliable and scalable deployment for both the frontend and backend.
+- **Responsive Design**: Mobile-friendly UI built with Tailwind CSS.
+- **Real-time Updates**: Tasks update dynamically without a page refresh.
+- **Deployed on Render and Netlify**: Ensuring reliability and scalability.
 
-### Overview Images
+### Screenshots
+
 Sign in Page
 ![Sign In](./assets/signin.png)
+
 Sign up Page
 ![Sign Up](./assets/signup.png)
+
 Task Manager
 ![Task Manager](./assets/taskmanager.png)
+
 Update Profile
 ![Update Profile](./assets/updateProfile.png)
 
@@ -24,20 +36,20 @@ Update Profile
 
 ### Frontend
 
-- **React**: A JavaScript library for building user interfaces.
-- **Vite**: A build tool that provides a faster and leaner development experience for modern web projects.
-- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+- **React** – JavaScript library for building UIs.
+- **Vite** – Fast development build tool.
+- **Tailwind CSS** – Utility-first CSS framework.
 
 ### Backend
 
-- **Python**: A versatile programming language.
-- **Flask**: A lightweight WSGI web application framework in Python.
+- **Python** – Versatile programming language.
+- **Flask** – Lightweight web framework for Python.
 
 ### Deployment
 
-- **Netlify**: Deployment platform for the frontend.
-[![Netlify Status](https://api.netlify.com/api/v1/badges/69d6e67f-1b30-40e5-be9b-6abf018367e6/deploy-status)](https://app.netlify.com/sites/todoappstarter/deploys)
-- **Render**: Deployment platform for the backend.
+- **Netlify** – Deployment platform for the frontend.
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/69d6e67f-1b30-40e5-be9b-6abf018367e6/deploy-status)](https://app.netlify.com/sites/todoappstarter/deploys)
+- **Render** – Deployment platform for the backend.
 
 ## Getting Started
 
@@ -49,22 +61,24 @@ Update Profile
 ### Installation
 
 1. **Clone the repository**:
-
    ```bash
    git clone git@github.com:Raddames-Tonui/TodoApp.git
    cd TodoApp
+   ```
 
 2. **Install frontend dependencies:**
-
    ```bash
-    cd frontend
-    npm install
+   cd frontend
+   npm install
+   ```
 
 3. **Install backend dependencies:**
-
    ```bash
-    cd backend
-    pip install -r requirements.txt
+   cd backend
+   pip install -r requirements.txt
+   ```
 
 ## Contributing
+
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
