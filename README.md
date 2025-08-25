@@ -81,8 +81,3 @@ Update Profile
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-# todoapp
-# todoapp
-# todoapp
-# todoapp
