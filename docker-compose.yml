@@ -1,4 +1,5 @@
 version: '3.8'
+
 services:
   backend:
     build: ./backend
@@ -27,8 +28,9 @@ services:
       - todo-network
 
 volumes:
-  sqlite_data:
-  
+  sqlite_data: {}  
+
 networks:
   todo-network:
     driver: bridge
+
